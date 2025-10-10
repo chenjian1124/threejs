@@ -5112,4 +5112,4 @@ ${t}}`}}class o2{constructor(){this.textureUtils=null}setTextureUtils(e){this.te
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */const F2=WP(CP(L2(uD(wF(y2(T2(zP(Pl))))))));customElements.define("model-viewer",F2);const P2="/test.glb",U2={__name:"Threeja",setup(i){return(e,t)=>{const n=nS("model-viewer");return sE(),rE(n,{src:P2,alt:"A 3D model of an astronaut","shadow-intensity":"1","camera-controls":"",ar:"","auto-rotate":"",style:{width:"500px",height:"500px"}})}}},N2={__name:"App",setup(i){return(e,t)=>(sE(),rE(U2))}};vC(N2).mount("#app");
+ */const F2=WP(CP(L2(uD(wF(y2(T2(zP(Pl))))))));customElements.define("model-viewer",F2);const P2="https://threejs.org/examples/models/gltf/duck/duck.gltf",U2={__name:"Threeja",setup(i){return(e,t)=>{const n=nS("model-viewer");return sE(),rE(n,{src:P2,alt:"A 3D model of an astronaut","shadow-intensity":"1","camera-controls":"",ar:"","auto-rotate":"",style:{width:"500px",height:"500px"}})}}},N2={__name:"App",setup(i){return(e,t)=>(sE(),rE(U2))}};vC(N2).mount("#app");
